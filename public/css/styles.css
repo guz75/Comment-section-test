@@ -1,0 +1,21 @@
+body {
+  background-color: #3a4750;
+  color: rgba(238, 238, 238, 0.8);
+}
+
+.comment-box {
+  background-color: #303841;
+  border: 6px solid rgb(215, 35, 35);
+  border: 6px solid rgba(215, 35, 35, .7);
+  border-radius: 15px;
+  padding: 25px 35px;
+  margin-top: 40px;
+}
+
+.comment-text-marg {
+  margin-bottom: 30px;
+}
+
+.input-bgc {
+  background-color: #eeeeee;
+}
