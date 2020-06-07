@@ -1,15 +1,39 @@
 body {
   background-color: #3a4750;
+  color: rgb(238, 238, 238);
   color: rgba(238, 238, 238, 0.8);
+}
+
+.container {
+  padding: 0 7%;
+  position: relative;
 }
 
 .comment-box {
   background-color: #303841;
-  border: 6px solid rgb(215, 35, 35);
-  border: 6px solid rgba(215, 35, 35, .7);
   border-radius: 15px;
   padding: 25px 35px;
   margin-top: 40px;
+}
+
+.user-details {
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+}
+
+.detail {
+  padding-left: 30px;
+}
+
+.content-display {
+  background-color: #eeeeee;
+  border-radius: 6px;
+  color: #495057;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  min-height: 10rem;
+  padding: 0.8rem 1.2rem
 }
 
 .comment-text-marg {
@@ -18,4 +42,12 @@ body {
 
 .input-bgc {
   background-color: #eeeeee;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.bottom-box {
+  margin-bottom: 3rem;
 }

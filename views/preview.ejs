@@ -1,0 +1,24 @@
+<%- include("partials/header"); %>
+
+
+  <div class="container">
+    <div class="comment-box">
+      <div class="user-details">
+        <div class="detail">
+          <h5><%= posts.slice(-1)[0].name %></h5>
+        </div>
+        <div class="detail">
+          <h5>30 May, 2020</h5>
+        </div>
+      </div>
+      <div class="content-display">
+        <p><%= posts.slice(-1)[0].comment %></p>
+      </div>
+      <form action="/editPost" method="post">
+        <button class="btn btn-md btn-light" type="submit" name="button">Edit your post</button>
+      </form>
+    </div>
+  </div>
+
+
+<%- include("partials/footer"); %>
