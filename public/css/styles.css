@@ -6,7 +6,14 @@ body {
 
 .container {
   padding: 0 7%;
-  position: relative;
+}
+
+.center {
+  left: 50%;
+  margin-top: -40px;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
 }
 
 .comment-box {
@@ -17,8 +24,8 @@ body {
 }
 
 .user-details {
-  justify-content: flex-end;
   display: flex;
+  justify-content: flex-end;
   width: 100%;
 }
 
@@ -46,8 +53,4 @@ body {
 
 .btn {
   margin-top: 20px;
-}
-
-.bottom-box {
-  margin-bottom: 3rem;
 }

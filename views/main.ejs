@@ -1,6 +1,7 @@
 <%- include("partials/header"); %>
 
   <div class="comment-container">
+
     <%posts.forEach(function(post){%>
       <div class="container">
         <div class="comment-box">
@@ -24,39 +25,7 @@
         </div>
       </div>
     <%})%>
-  </div>
-
-  <div class="container">
-    <form class="" action="/" method="post">
-      <div class="comment-box">
-        <h3 class="comment-text-marg">ADD A COMMENT</h3>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label>Name <em>(Required)</em></label>
-            <input class="form-control input-bgc" type="text" name="name" required>
-          </div>
-          <div class="form-group col-md-6">
-            <label>Email <em>(Required)</em></label>
-            <input class="form-control input-bgc" type="email" name="email" required>
-          </div>
-        </div>
-        <div class="form-group">
-          <label>Website</label>
-          <input class="form-control input-bgc" type="text" name="website">
-        </div>
-      </div>
-      <div class="comment-box bottom-box">
-        <div class="form-group">
-          <label>Title</label>
-          <input class="form-control" type="text" name="title">
-          </div>
-          <div class="form-group">
-            <label>Your Comment</label>
-            <textarea class="form-control input-bgc" name="comment" rows="5" cols="40"></textarea>
-          </div>
-        <button id="scroll-button" class="btn btn-light btn-md" type="submit">Add Comment</button>
-      </div>
-    </form>
+    
   </div>
 
 <%- include("partials/footer"); %>

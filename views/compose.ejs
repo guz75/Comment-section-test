@@ -1,0 +1,20 @@
+<%- include("partials/header"); %>
+
+<div class="container center">
+  <form class="" action="/posts/compose" method="post">
+    <div class="comment-box">
+      <h3 class="comment-text-marg">ADD A COMMENT</h3>
+      <div class="form-group">
+        <label>Title</label>
+        <input class="form-control" type="text" name="title">
+      </div>
+      <div class="form-group">
+        <label>Your Comment</label>
+        <textarea class="form-control input-bgc" name="comment" rows="5" cols="40"></textarea>
+      </div>
+      <button id="scroll-button" class="btn btn-light btn-md" type="submit" value="submit">Add Comment</button>
+    </div>
+  </form>
+</div>
+
+<%- include("partials/footer"); %>
